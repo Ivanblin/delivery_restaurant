@@ -1,0 +1,22 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  color: #ffffff;
+  padding: 50px 0 90px 0;
+  
+  .title {
+    font-size: 32px;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+
+  &__info {
+    display: flex;
+    align-items: center;
+    gap: 0 20px;
+
+    &-product {
+      text-align: end;
+    }
+  }
+}
