@@ -1,6 +1,7 @@
 import './index.scss'
 
 import Header from "../../components/blocks/Header";
+import Main from "../../components/blocks/Main";
 
 function Products() {
   return (
@@ -18,6 +19,8 @@ function Products() {
       <Header
         isActiveTitle={false}
       /> */}
+
+      <Main />
     </div>
   );
 }

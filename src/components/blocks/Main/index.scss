@@ -1,0 +1,12 @@
+.main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: baseline;
+  height: calc(100vh - 172px);
+  overflow-x: auto;
+
+  .card {
+    width: 24%;
+  }
+}

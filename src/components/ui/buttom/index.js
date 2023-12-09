@@ -1,9 +1,9 @@
 
 function Button() {
   return (
-    <buttom>
+    <button>
       Выйти
-    </buttom>
+    </button>
   );
 }
 

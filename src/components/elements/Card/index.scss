@@ -1,0 +1,18 @@
+.card {
+  color: #ffffff;
+  border: 1px solid #D58C51;
+  padding: 43px 21px 36px 21px;
+
+  &__title {
+    margin-bottom: 15px;
+  }
+
+  &__description {
+    margin-bottom: 63px;
+  }
+
+  &__footer {
+    display: flex;
+    justify-content: space-between;
+  }
+}
